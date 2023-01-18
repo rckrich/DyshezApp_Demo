@@ -53,7 +53,7 @@ const CategoryCards = ({id, handleCategorySelect}) => {
       style={styles.container}
       data={categories}
       renderItem={renderItem}
-      keyExtractor={item => item.id}
+      keyExtractor={(item, index) => index.toString()}
       numColumns={3}
       ListFooterComponent={<View />}
       ListFooterComponentStyle={{height: 30}}

@@ -42,7 +42,7 @@ const ListCards = ({id, filteredDishes}) => {
       contentContainerStyle={styles.container}
       data={filteredDishes?.length > 0 ? filteredDishes : dishes}
       renderItem={renderItem}
-      keyExtractor={item => item.id}
+      keyExtractor={(item, index) => index.toString()}
       ListFooterComponent={<View />}
       ListFooterComponentStyle={{height: 50}}
     />

@@ -30,7 +30,7 @@ const ScrollableCategories = ({id, handleCategorySelect, categorySelected}) => {
         contentContainerStyle={styles.container}
         data={categories}
         renderItem={renderItem}
-        keyExtractor={item => item}
+        keyExtractor={(item, index) => index.toString()}
         horizontal
       />
     </View>
