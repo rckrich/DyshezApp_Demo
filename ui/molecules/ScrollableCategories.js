@@ -30,7 +30,7 @@ const ScrollableCategories = ({id, handleCategorySelect, categorySelected}) => {
         contentContainerStyle={styles.container}
         data={categories}
         renderItem={renderItem}
-        keyExtractor={item => item}
+        keyExtractor={(item, index) => index.toString()}
         horizontal
       />
     </View>
@@ -63,11 +63,11 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 14,
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
   },
   textWhite: {
     fontSize: 14,
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
     color: '#fff',
   },
 });

@@ -53,7 +53,7 @@ const CategoryCards = ({id, handleCategorySelect}) => {
       style={styles.container}
       data={categories}
       renderItem={renderItem}
-      keyExtractor={item => item.id}
+      keyExtractor={(item, index) => index.toString()}
       numColumns={3}
       ListFooterComponent={<View />}
       ListFooterComponentStyle={{height: 30}}
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 12,
-    // fontFamily: 'PoppinsRegular',
+    fontFamily: 'Poppins-Regular',
     paddingRight: 5,
   },
 });

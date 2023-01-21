@@ -117,19 +117,19 @@ const styles = StyleSheet.create({
   },
   text: {
     maxWidth: 320,
-    // fontFamily: 'MontserratMedium',
+    fontFamily: 'Montserrat-Medium',
     fontSize: 12,
     color: '#333333',
   },
   textLong: {
     maxWidth: 310,
-    // fontFamily: 'MontserratMedium',
+    fontFamily: 'Montserrat-Medium',
     fontSize: 12,
     color: '#333333',
   },
   textLink: {
     maxWidth: 320,
-    // fontFamily: 'MontserratMedium',
+    fontFamily: 'Montserrat-Medium',
     fontSize: 12,
     color: '#333333',
     textDecorationStyle: 'solid',
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   },
   textOpen: {
     maxWidth: 320,
-    // fontFamily: 'MontserratMedium',
+    fontFamily: 'Montserrat-Medium',
     fontSize: 12,
     color: 'green',
   },

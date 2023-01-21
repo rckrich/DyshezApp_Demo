@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     fontSize: 19,
     paddingLeft: 22,
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
   },
 });
 

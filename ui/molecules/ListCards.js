@@ -32,6 +32,23 @@ const ListCards = ({id, filteredDishes}) => {
       </View>
       <View style={styles.details}>
         <Text style={styles.callories}>{item.callories} KCal</Text>
+        <View style={styles.icons}>
+          {item.comments > 0 && (
+            <Image
+              style={styles.pen}
+              source={require('../../assets/icons/heart.png')}
+            />
+          )}
+          <View style={styles.likes}>
+            {item.likes > 0 && (
+              <Image
+                style={styles.pen}
+                source={require('../../assets/icons/heart.png')}
+              />
+            )}
+            <Text> {item.likes}</Text>
+          </View>
+        </View>
         <Text style={styles.price}>${item.price.toFixed(2)}</Text>
       </View>
     </View>
@@ -42,7 +59,7 @@ const ListCards = ({id, filteredDishes}) => {
       contentContainerStyle={styles.container}
       data={filteredDishes?.length > 0 ? filteredDishes : dishes}
       renderItem={renderItem}
-      keyExtractor={item => item.id}
+      keyExtractor={(item, index) => index.toString()}
       ListFooterComponent={<View />}
       ListFooterComponentStyle={{height: 50}}
     />
@@ -65,14 +82,14 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 16,
-    // fontFamily: 'PoppinsSemiBoldItalic',
+    fontFamily: 'Poppins-SemiBoldItalic',
     marginBottom: 5,
   },
   description: {
     fontSize: 12,
     width: '87%',
     textAlign: 'center',
-    // fontFamily: 'PoppinsMedium',
+    fontFamily: 'Poppins-Medium',
     color: '#a1a1a1',
     justifyContent: 'center',
   },
@@ -99,12 +116,27 @@ const styles = StyleSheet.create({
   },
   callories: {
     marginHorizontal: 10,
-    // fontFamily: 'PoppinsMedium',
+    fontFamily: 'Poppins-Medium',
     fontSize: 12,
   },
   price: {
-    // fontFamily: 'PoppinsMedium',
+    fontFamily: 'Poppins-Medium',
     fontSize: 12,
+  },
+  icons: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  pen: {
+    width: 14,
+    height: 14,
+  },
+  likes: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 5,
   },
 });
 

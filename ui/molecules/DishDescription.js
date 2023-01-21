@@ -54,12 +54,12 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 18,
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
     marginBottom: 10,
   },
   description: {
     fontSize: 14,
-    // fontFamily: 'PoppinsLight',
+    fontFamily: 'Poppins-Light',
     marginBottom: 20,
   },
   detailsWrapper: {
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   price: {
-    // fontFamily: 'PoppinsSemiBold',
+    ontFamily: 'Poppins-SemiBold',
     fontSize: 18,
     textAlign: 'right',
   },
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   callories: {
     fontSize: 14,
     textAlign: 'right',
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
     color: '#666666',
   },
 });

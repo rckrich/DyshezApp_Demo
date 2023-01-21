@@ -17,7 +17,7 @@ const FeedCards = ({data}) => {
       style={styles.container}
       data={data}
       renderItem={renderItem}
-      keyExtractor={item => item}
+      keyExtractor={(item, index) => index.toString()}
       numColumns={3}
       ListFooterComponent={<View />}
       ListFooterComponentStyle={{height: 30}}
