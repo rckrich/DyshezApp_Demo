@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     width: 25,
-    height: 22,
+    height: 24,
     marginHorizontal: 8,
   },
   touchable: {

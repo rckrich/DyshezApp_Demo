@@ -118,6 +118,8 @@ export const dishes = [
       Images.dishes.rocaquesobrie3,
       Images.dishes.rocaquesobrie4,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Gravlax de salmón noruego',
@@ -135,6 +137,8 @@ export const dishes = [
       Images.dishes.rocagravlaxsalmon3,
       Images.dishes.rocagravlaxsalmon4,
     ],
+    likes: 5,
+    comments: 0,
   },
   {
     name: 'Ostiones Rockefeller (4 pzas)',
@@ -151,6 +155,8 @@ export const dishes = [
       Images.dishes.rocaostionesrockefeller3,
       Images.dishes.rocaostionesrockefeller4,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Coliflor rostizada',
@@ -163,6 +169,8 @@ export const dishes = [
     category: 'Entradas',
     imageUrl: Images.dishes.rocacoliflor1,
     images: [Images.dishes.rocacoliflor1, Images.dishes.rocacoliflor2],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Kibi de cordero con labne trufado y zatar',
@@ -180,6 +188,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 0,
   },
   {
     name: 'Queso fundido natural',
@@ -196,6 +206,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Wonton de cerdo',
@@ -212,6 +224,8 @@ export const dishes = [
       Images.dishes.rocawonton2,
       Images.dishes.rocawonton3,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Tartar de res',
@@ -229,6 +243,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Tiradito de centro de rib eye',
@@ -246,6 +262,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Guacamole',
@@ -262,6 +280,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Pulpo a la yucateca',
@@ -279,6 +299,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Caramelos de centro de rib eye (3 pzas)',
@@ -296,6 +318,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Centro de rib eye flameado al estilo roca',
@@ -313,6 +337,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Hamburguesa de la casa',
@@ -330,6 +356,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Pechuga de pollo orgánica con zarzamora',
@@ -346,6 +374,8 @@ export const dishes = [
       Images.dishes.rocapechugaorganica2,
       Images.dishes.rocapechugaorganica3,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Salmón noruego con costra de pistache',
@@ -363,6 +393,8 @@ export const dishes = [
       Images.dishes.rocasalmonpistache3,
       Images.dishes.rocasalmonpistache4,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Surf and turf',
@@ -381,6 +413,8 @@ export const dishes = [
       Images.dishes.rocasurfandturf4,
       Images.dishes.rocasurfandturf5,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Caldo Roca',
@@ -398,6 +432,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Ensalada de cítricos y frutos secos',
@@ -415,6 +451,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Ensalada césar',
@@ -427,6 +465,8 @@ export const dishes = [
     category: 'Ensaladas y Sopas',
     imageUrl: Images.dishes.rocaensaladacesar1,
     images: [Images.dishes.rocaensaladacesar1],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Ensalada de burrata',
@@ -444,6 +484,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Jugo de carne',
@@ -460,6 +502,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Sopa de cebolla',
@@ -477,6 +521,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Risotto negro',
@@ -493,6 +539,8 @@ export const dishes = [
       Images.dishes.rocarisottonegro2,
       Images.dishes.rocarisottonegro3,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Ravioles de ricotta y espinaca',
@@ -510,6 +558,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Fetuccini en salsa de cacahuate y camarón',
@@ -527,6 +577,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Tagliatelle con foie gras trufada',
@@ -544,6 +596,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Rocas fetuccini',
@@ -561,6 +615,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Risotto de hongos',
@@ -578,6 +634,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Rib Eye',
@@ -594,6 +652,8 @@ export const dishes = [
       Images.dishes.rocaribeye3,
       Images.dishes.rocaribeye4,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Barbacoa de costillar',
@@ -610,6 +670,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Spinalis',
@@ -626,6 +688,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Centro de rib eye',
@@ -642,6 +706,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Cowboy',
@@ -658,6 +724,8 @@ export const dishes = [
       Images.dishes.rocacowboy3,
       Images.dishes.rocacowboy4,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Filete',
@@ -674,6 +742,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'New York',
@@ -690,6 +760,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Mac n cheese con pork belly',
@@ -706,6 +778,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Puré de papa',
@@ -722,6 +796,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Papas a la francesa',
@@ -738,6 +814,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Espinacas a la crema',
@@ -754,6 +832,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Verduras asadas',
@@ -770,6 +850,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Cebolla asada',
@@ -786,6 +868,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Coca Cola',
@@ -802,6 +886,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   {
     name: 'Cerveza Montejo',
@@ -818,6 +904,8 @@ export const dishes = [
       Images.dishes.rocaensaladadetomate,
       Images.dishes.rocafettuccinialfredo,
     ],
+    likes: 5,
+    comments: 2,
   },
   // General
   {

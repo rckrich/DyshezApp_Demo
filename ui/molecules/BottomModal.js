@@ -42,6 +42,33 @@ const BottomModal = ({
             <Text style={styles.text}>Ver menús</Text>
           </Pressable>
         </View>
+        <View style={styles.buttons}>
+          <Pressable style={styles.button} onPress={() => {}}>
+            <Image
+              source={require('../../assets/icons/share.png')}
+              style={styles.icon}
+            />
+            <Text style={styles.text}>Crear Evento</Text>
+          </Pressable>
+          <Pressable style={styles.button} onPress={() => {}}>
+            <Image
+              source={require('../../assets/icons/restaurant-menu.png')}
+              style={styles.icon}
+            />
+            <Text style={styles.text}>
+              Mostrar que estoy en este restaurante
+            </Text>
+          </Pressable>
+        </View>
+        <View style={styles.buttons}>
+          <Pressable style={styles.button} onPress={() => {}}>
+            <Image
+              source={require('../../assets/icons/share.png')}
+              style={styles.icon}
+            />
+            <Text style={styles.text}>Crear Evento</Text>
+          </Pressable>
+        </View>
       </View>
     </Modal>
   );
@@ -58,7 +85,7 @@ const styles = StyleSheet.create({
   },
   container: {
     backgroundColor: '#fff',
-    height: 250,
+    height: 500,
     marginTop: 'auto',
     borderRadius: 25,
     paddingHorizontal: 50,
@@ -67,7 +94,7 @@ const styles = StyleSheet.create({
   },
   buttons: {
     flexDirection: 'row',
-    marginTop: 30,
+    marginTop: 10,
   },
   button: {
     height: 85,
@@ -86,12 +113,13 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   title: {
-    // fontFamily: 'PoppinsBold',
+    fontFamily: 'Poppins-Bold',
     fontSize: 13,
   },
   text: {
-    // fontFamily: 'PoppinsRegular',
+    fontFamily: 'Poppins-Regular',
     fontSize: 12,
+    textAlign: 'center',
   },
 });
 

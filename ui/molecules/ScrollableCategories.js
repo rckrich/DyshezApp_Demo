@@ -63,11 +63,11 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 14,
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
   },
   textWhite: {
     fontSize: 14,
-    // fontFamily: 'PoppinsSemiBold',
+    fontFamily: 'Poppins-SemiBold',
     color: '#fff',
   },
 });

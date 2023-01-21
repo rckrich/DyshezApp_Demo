@@ -6,6 +6,7 @@ import {
   Text,
   ImageBackground,
   TouchableHighlight,
+  Image,
 } from 'react-native';
 import {getMenu} from '../../utils/dishesData';
 import {useNavigation} from '@react-navigation/native';
@@ -30,6 +31,23 @@ const SquareCards = ({id, filteredDishes}) => {
         </View>
         <View style={styles.wrapperPrice}>
           <Text style={styles.text}>${item.price.toFixed(2)}</Text>
+        </View>
+        <View style={styles.wrapperIcons}>
+          <View style={styles.comments}>
+            <Image
+              style={styles.pen}
+              source={require('../../assets/icons/heart.png')}
+            />
+          </View>
+          <View style={styles.likes}>
+            <View style={styles.likesWrapper}>
+              <Image
+                style={styles.heart}
+                source={require('../../assets/icons/heart.png')}
+              />
+              <Text>{item.likes}</Text>
+            </View>
+          </View>
         </View>
       </ImageBackground>
     </TouchableHighlight>
@@ -92,9 +110,53 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 10,
-    // fontFamily: 'PoppinsRegular',
+    fontFamily: 'Poppins-Regular',
     color: '#fff',
     maxWidth: 200,
+  },
+  wrapperIcons: {
+    maxWidth: '100%',
+    alignItems: 'center',
+    position: 'absolute',
+    right: 5,
+    top: 5,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  comments: {
+    borderRadius: 20,
+    paddingHorizontal: 5,
+    height: 20,
+    backgroundColor: '#fff',
+    marginRight: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  likesWrapper: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  likes: {
+    borderRadius: 20,
+    paddingHorizontal: 5,
+    height: 20,
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  pen: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 12,
+    width: 12,
+  },
+  heart: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 12,
+    width: 12,
+    marginRight: 2,
   },
 });
 

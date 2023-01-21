@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 13,
     color: '#606368',
-    // fontFamily: 'PoppinsLight',
+    fontFamily: 'Poppins-Light',
   },
 });
 

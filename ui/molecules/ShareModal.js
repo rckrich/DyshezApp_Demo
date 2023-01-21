@@ -117,16 +117,16 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   title: {
-    // fontFamily: 'PoppinsBold',
+    fontFamily: 'Poppins-Bold',
     fontSize: 13,
     marginBottom: 10,
   },
   text: {
-    // fontFamily: 'PoppinsRegular',
+    fontFamily: 'Poppins-Regular',
     fontSize: 12,
   },
   header: {
-    // fontFamily: 'PoppinsMedium',
+    fontFamily: 'Poppins-Medium',
     color: '#D4145A',
     paddingLeft: 8,
     marginTop: 5,

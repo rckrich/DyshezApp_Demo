@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 12,
-    // fontFamily: 'PoppinsRegular',
+    fontFamily: 'Poppins-Regular',
     paddingRight: 5,
   },
 });
