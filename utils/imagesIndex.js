@@ -12,6 +12,7 @@ export const Images = {
     roca: require('../assets/restaurants/roca.jpg'),
     laparroquia: require('../assets/restaurants/laparroquia.jpg'),
     bostons: require('../assets/restaurants/bostons.jpg'),
+    city32: require('../assets/restaurants/city32.jpg'),
   },
   dishes: {
     pizzapepperoni: require('../assets/dishes/pizzapepperoni.png'),

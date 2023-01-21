@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {View, StyleSheet} from 'react-native';
 import RestaurantHeader from '../ui/molecules/RestaurantHeader';
 import RestaurantTabs from '../ui/molecules/RestaurantTabs';
+import MallTabs from '../ui/molecules/MallTabs';
 import {getRestaurant} from '../utils/restaurantsData';
 import RestaurantDetails from '../ui/molecules/RestaurantDetails';
 import BottomModal from '../ui/molecules/BottomModal';
@@ -50,7 +51,13 @@ const Restaurant = ({route}) => {
           url={restaurant.url}
         />
       )}
-      <RestaurantTabs id={restaurant.id} />
+
+      {restaurant.type === 'Restaurante' && (
+        <RestaurantTabs id={restaurant.id} />
+      )}
+
+      {restaurant.type === 'Plaza' && <MallTabs id={restaurant.id} />}
+
       <BottomModal
         modalVisible={isBottomModalVisible}
         setIsBottomModalVisible={setIsBottomModalVisible}
