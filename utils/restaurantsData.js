@@ -115,7 +115,7 @@ export const data = [
     name: 'Bachour',
     type: 'Restaurante',
     id: 'bachour',
-    logoUrl: Images.restaurants.city32,
+    logoUrl: Images.restaurants.bachour,
     schedule: '12:00 - 01:00',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
@@ -128,10 +128,106 @@ export const data = [
     mallId: 'city32',
   },
   {
-    name: 'Bachour2',
+    name: 'Marbol',
     type: 'Restaurante',
-    id: 'bachour2',
-    logoUrl: Images.restaurants.city32,
+    id: 'marbol',
+    logoUrl: Images.restaurants.marbol,
+    schedule: '12:00 - 01:00',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    address:
+      'Calle 50 No. 482 x Calle 31 y Calle 31-A, C. 31ᴬ, Gonzalo Guerrero, 97118 Mérida, Yuc.',
+    phone: '9999-99-99-99',
+    url: 'www.google.com',
+    isActive: false,
+    isCopy: true,
+    mallId: 'city32',
+  },
+  {
+    name: 'Hovel',
+    type: 'Restaurante',
+    id: 'hovel',
+    logoUrl: Images.restaurants.hovel,
+    schedule: '12:00 - 01:00',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    address:
+      'Calle 50 No. 482 x Calle 31 y Calle 31-A, C. 31ᴬ, Gonzalo Guerrero, 97118 Mérida, Yuc.',
+    phone: '9999-99-99-99',
+    url: 'www.google.com',
+    isActive: false,
+    isCopy: true,
+    mallId: 'city32',
+  },
+  {
+    name: 'Magstone',
+    type: 'Restaurante',
+    id: 'magstone',
+    logoUrl: Images.restaurants.magstone,
+    schedule: '12:00 - 01:00',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    address:
+      'Calle 50 No. 482 x Calle 31 y Calle 31-A, C. 31ᴬ, Gonzalo Guerrero, 97118 Mérida, Yuc.',
+    phone: '9999-99-99-99',
+    url: 'www.google.com',
+    isActive: false,
+    isCopy: true,
+    mallId: 'city32',
+  },
+  {
+    name: 'Mitica',
+    type: 'Restaurante',
+    id: 'mitica',
+    logoUrl: Images.restaurants.mitica,
+    schedule: '12:00 - 01:00',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    address:
+      'Calle 50 No. 482 x Calle 31 y Calle 31-A, C. 31ᴬ, Gonzalo Guerrero, 97118 Mérida, Yuc.',
+    phone: '9999-99-99-99',
+    url: 'www.google.com',
+    isActive: false,
+    isCopy: true,
+    mallId: 'city32',
+  },
+  {
+    name: 'Pueblo Pibil',
+    type: 'Restaurante',
+    id: 'pueblopibil',
+    logoUrl: Images.restaurants.pueblopibil,
+    schedule: '12:00 - 01:00',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    address:
+      'Calle 50 No. 482 x Calle 31 y Calle 31-A, C. 31ᴬ, Gonzalo Guerrero, 97118 Mérida, Yuc.',
+    phone: '9999-99-99-99',
+    url: 'www.google.com',
+    isActive: false,
+    isCopy: true,
+    mallId: 'city32',
+  },
+  {
+    name: 'Kukis',
+    type: 'Restaurante',
+    id: 'kukis',
+    logoUrl: Images.restaurants.kukis,
+    schedule: '12:00 - 01:00',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    address:
+      'Calle 50 No. 482 x Calle 31 y Calle 31-A, C. 31ᴬ, Gonzalo Guerrero, 97118 Mérida, Yuc.',
+    phone: '9999-99-99-99',
+    url: 'www.google.com',
+    isActive: false,
+    isCopy: true,
+    mallId: 'city32',
+  },
+  {
+    name: 'Mochomos',
+    type: 'Restaurante',
+    id: 'mochomos',
+    logoUrl: Images.restaurants.mochomos,
     schedule: '12:00 - 01:00',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",

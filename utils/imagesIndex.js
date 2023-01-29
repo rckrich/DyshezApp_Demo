@@ -13,6 +13,14 @@ export const Images = {
     laparroquia: require('../assets/restaurants/laparroquia.jpg'),
     bostons: require('../assets/restaurants/bostons.jpg'),
     city32: require('../assets/restaurants/city32.jpg'),
+    bachour: require('../assets/restaurants/bachour.jpg'),
+    marbol: require('../assets/restaurants/marbol.png'),
+    hovel: require('../assets/restaurants/hovel.jpg'),
+    magstone: require('../assets/restaurants/magstone.jpg'),
+    mitica: require('../assets/restaurants/mitica.jpg'),
+    pueblopibil: require('../assets/restaurants/pueblopibil.jpg'),
+    kukis: require('../assets/restaurants/kukis.png'),
+    mochomos: require('../assets/restaurants/mochomos.png'),
   },
   dishes: {
     pizzapepperoni: require('../assets/dishes/pizzapepperoni.png'),
@@ -126,6 +134,11 @@ export const Images = {
     profile3: require('../assets/profiles/profile3.png'),
     profile4: require('../assets/profiles/profile4.png'),
     profile5: require('../assets/profiles/profile5.png'),
+  },
+  malls: {
+    city32_1: require('../assets/malls/city32_1.jpeg'),
+    city32_2: require('../assets/malls/city32_2.jpeg'),
+    city32_3: require('../assets/malls/city32_3.jpeg'),
   },
 };
 

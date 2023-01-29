@@ -71,12 +71,12 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     alignItems: 'center',
     position: 'relative',
-    height: 150,
-    borderRadius: 15,
+    height: 190,
+    borderRadius: 0,
   },
   touchable: {
     width: '50%',
-    padding: 2,
+    padding: 1,
   },
   image: {
     flex: 1,
